@@ -2,3 +2,5 @@
 target
 /lambda-hello/.project
 /lambda-hello/.classpath
+/lambda-rest-jersey/.classpath
+/lambda-rest-jersey/.project
