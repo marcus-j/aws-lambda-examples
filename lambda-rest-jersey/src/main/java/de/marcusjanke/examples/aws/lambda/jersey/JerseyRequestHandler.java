@@ -21,7 +21,7 @@ public class JerseyRequestHandler implements RequestHandler<AwsProxyRequest, Aws
 	/**
 	 * create JerseyRequestHandler and set up Spring context and Jersey config
 	 */
-	public JerseyRequestHandler() {
+	JerseyRequestHandler() {
 		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
         context.register(SpringConfig.class);
         context.refresh();
