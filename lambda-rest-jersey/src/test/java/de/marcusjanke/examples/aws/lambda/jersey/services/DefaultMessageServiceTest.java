@@ -13,7 +13,7 @@ import org.junit.Test;
 public class DefaultMessageServiceTest {
 
 	/**
-	 * test getMessage vaalue
+	 * test getMessage value
 	 */
 	@Test
 	public void testDefaultMessage() {
