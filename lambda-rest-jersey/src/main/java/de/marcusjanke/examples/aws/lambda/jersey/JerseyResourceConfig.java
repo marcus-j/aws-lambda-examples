@@ -15,8 +15,9 @@ import de.marcusjanke.examples.aws.lambda.jersey.resources.DefaultResource;
  */
 @Component
 public class JerseyResourceConfig extends ResourceConfig {
-	
-	@Autowired DefaultResource defaultResource;
+
+    @Autowired
+    private DefaultResource defaultResource;
 
     @PostConstruct
     public void init() {
