@@ -10,20 +10,16 @@ import de.marcusjanke.examples.aws.lambda.jersey.resources.DefaultResource;
 
 /**
  * Jersey resource config, wire JAX-RS-resources here
- * 
- * @author marcus
  *
+ * @author marcus
  */
 @Component
 public class JerseyResourceConfig extends ResourceConfig {
 	
 	@Autowired DefaultResource defaultResource;
 
-	/**
-	 * register wired resources
-	 */
     @PostConstruct
-	public void init() {
-		register(defaultResource);
-	}
+    public void init() {
+        register(defaultResource);
+    }
 }

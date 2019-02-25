@@ -7,10 +7,5 @@ package de.marcusjanke.examples.aws.lambda.jersey.services;
  */
 public interface MessageService {
 
-	/**
-	 * get some message
-	 * 
-	 * @return message
-	 */
 	public String getMessage();
 }
