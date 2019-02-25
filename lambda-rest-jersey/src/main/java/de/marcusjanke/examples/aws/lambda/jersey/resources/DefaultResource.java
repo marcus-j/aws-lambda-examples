@@ -23,13 +23,8 @@ import static javax.ws.rs.core.MediaType.TEXT_PLAIN;
 public class DefaultResource {
 	
 	@Autowired
-	MessageService messageService;
-	 
-	/**
-	 * sample method call
-	 * 
-	 * @return default response
-	 */
+	private MessageService messageService;
+
     @GET
     @Produces(TEXT_PLAIN)
     public Response getDefaultResponse() {
