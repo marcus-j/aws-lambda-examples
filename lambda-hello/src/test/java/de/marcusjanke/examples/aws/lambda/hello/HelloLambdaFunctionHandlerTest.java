@@ -36,6 +36,6 @@ public class HelloLambdaFunctionHandlerTest {
         HelloLambdaFunctionHandler handler = new HelloLambdaFunctionHandler();
         Context ctx = createContext();
         String output = handler.handleRequest(input, ctx);
-        Assert.assertEquals("Hello world!", output);
+        Assert.assertEquals("Hello, world!", output);
     }
 }
