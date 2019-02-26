@@ -1,0 +1,1 @@
+# Example of a Jersey based AWS Lambda REST service

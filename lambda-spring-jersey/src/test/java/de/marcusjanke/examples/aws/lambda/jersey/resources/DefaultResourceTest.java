@@ -47,7 +47,7 @@ public class DefaultResourceTest extends JerseyTest {
 	 * test resource response
 	 */
 	@Test
-	public void estCall() {
+	public void testCall() {
 		String response = target("/default").request().get(String.class);
 		assertThat(response).isNotNull().isEqualTo("Default response");
 	}

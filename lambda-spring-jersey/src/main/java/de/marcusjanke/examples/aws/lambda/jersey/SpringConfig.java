@@ -17,13 +17,8 @@ import de.marcusjanke.examples.aws.lambda.jersey.services.MessageService;
 @ComponentScan("de.marcusjanke.examples.aws.lambda.jersey")
 public class SpringConfig {
 
-	/**
-	 * set up message service
-	 * 
-	 * @return MessageService
-	 */
 	@Bean
-	public MessageService messageServiceBean() {
+	public MessageService messageService() {
 		return new DefaultMessageService();
 	}
 }
