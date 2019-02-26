@@ -1,4 +1,5 @@
 .settings
+.idea
 target
 /lambda-hello/.project
 /lambda-hello/.classpath
